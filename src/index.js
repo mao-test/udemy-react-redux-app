@@ -9,7 +9,7 @@ import App from './components/App';
 import reportWebVitals from './reportWebVitals';
 
 //store
-const store = createStore(renduce)
+const store = createStore(reducer)
 
 ReactDOM.render(
   <Provider store={store}>
